@@ -63,10 +63,15 @@
   transition: all var(--transition-normal);
   display: flex;
   flex-direction: column;
+  position: relative;
+  will-change: box-shadow, margin;
 }
 
 .project-card:hover {
-  transform: translate(-4px, -4px);
+  margin-top: -4px;
+  margin-left: -4px;
+  margin-bottom: 4px;
+  margin-right: 4px;
   box-shadow: 12px 12px 0 var(--color-black);
 }
 
