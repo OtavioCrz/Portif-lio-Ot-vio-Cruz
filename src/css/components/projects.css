@@ -58,20 +58,16 @@
 .project-card {
   background: var(--color-white);
   border: var(--border-width) solid var(--color-black);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 8px 8px 0 var(--color-black);
   overflow: hidden;
-  transition: all var(--transition-normal);
+  transition: box-shadow var(--transition-normal);
   display: flex;
   flex-direction: column;
   position: relative;
-  will-change: box-shadow, margin;
+  cursor: pointer;
 }
 
 .project-card:hover {
-  margin-top: -4px;
-  margin-left: -4px;
-  margin-bottom: 4px;
-  margin-right: 4px;
   box-shadow: 12px 12px 0 var(--color-black);
 }
 
