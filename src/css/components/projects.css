@@ -64,7 +64,7 @@
   flex-direction: column;
   position: relative;
   cursor: pointer;
-  transition: all var(--transition-fast);
+  transition: all var(--transition-normal);
 }
 
 .project-card:hover {
