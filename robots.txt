@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://otaviocruz.com.br/sitemap.xml
