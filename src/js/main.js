@@ -3,6 +3,7 @@
 // Import modules
 import { initScrollAnimations } from './animations/scroll.js';
 import { initHoverEffects } from './animations/hover.js';
+import ScrollReveal from './animations/scroll-reveal.js';
 import { initNavigation } from './components/navigation.js';
 import { initContactForm } from './components/form.js';
 import { smoothScroll, debounce } from './utils/helpers.js';
