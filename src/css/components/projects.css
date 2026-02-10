@@ -60,7 +60,6 @@
   border: var(--border-width) solid var(--color-black);
   box-shadow: 8px 8px 0 var(--color-black);
   overflow: hidden;
-  transition: box-shadow var(--transition-normal);
   display: flex;
   flex-direction: column;
   position: relative;
