@@ -162,6 +162,9 @@
   flex: 1;
   padding: var(--spacing-sm);
   text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   background: var(--color-accent);
   color: var(--color-white);
   border: var(--border-width) solid var(--color-black);
