@@ -58,17 +58,18 @@
 .project-card {
   background: var(--color-white);
   border: var(--border-width) solid var(--color-black);
-  box-shadow: 8px 8px 0 var(--color-black);
+  box-shadow: var(--shadow-sm);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   position: relative;
   cursor: pointer;
-  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all var(--transition-fast);
 }
 
 .project-card:hover {
-  box-shadow: 12px 12px 0 var(--color-black);
+  transform: translate(2px, 2px);
+  box-shadow: none;
 }
 
 .project-card__image {
